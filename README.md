@@ -11,7 +11,7 @@ $$ \rho \left({C_p + h{d\lambda \over dT} }\right) {dT \over dt} + \rho C_p {U .
 
 $$ \lambda = 0.5 \ erf \left({4 { {T_s - T_m} \over {T_l - T_s} }}\right) + 0.5 $$
 
-Which $U$, $T$, and $\alpha$ are velocity vector, temperature, and thermal diffusivity, respectively.
+Which $U$, $p$, $T$, $g$, and $\lambda$ are velocity vector, pressure, temperature, gravitational acceleration, and melting fraction, respectively.
 
 
 ## Installation
