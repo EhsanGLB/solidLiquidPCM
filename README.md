@@ -3,9 +3,13 @@ This is a solver for solid-liquid phase change material based on foam-extend-4.1
 
 
 ## Mathematical Relationships
-$$ h = U. \nabla U $$
+{U . \nabla T} = 0
 
-Which $h$ and $U$ are helicity and velocity vector, respectively.
+$$ {dU \over dt}+ {(U . \nabla) U} = - {1 \over \nabla p} + \nu \nabla . {\nabla U} $$
+
+$$ {dT \over dt}+ {U . \nabla T} = \alpha {\nabla}^2 T $$
+
+Which $U$, $T$, and $\alpha$ are velocity vector, temperature, and thermal diffusivity, respectively.
 
 
 ## Installation
