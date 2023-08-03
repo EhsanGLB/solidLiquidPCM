@@ -11,7 +11,8 @@ $$ \rho \left({C_p + h{d\lambda \over dT} }\right) {dT \over dt} + \rho C_p {U .
 
 $$ \lambda = 0.5 \ erf \left({4 { {T_s - T_m} \over {T_l - T_s} }}\right) + 0.5 $$
 
-Which $U$, $p$, $T$, $g$, and $\lambda$ are velocity vector, pressure, temperature, gravitational acceleration, and melting fraction, respectively.
+Which $U$, $p$, $T$, $t$, $g$, and $\lambda$ are velocity vector, pressure, temperature, time, gravitational acceleration, and melting fraction, respectively.
+And $\rho$, $\nu$, $\beta$, $C_p$, $h$, $k$, $T_m$, $T_s$, and $T_l$  are density, kinematic viscosity, thermal expansion coefficient, specific heat capacity, melting enthalpy, thermal conductivity, melting temperature, solidification temperature, and liquidification temperature, respectively.
 
 
 ## Installation
