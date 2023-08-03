@@ -3,7 +3,7 @@ This is a solver for solid-liquid phase change material based on foam-extend-4.1
 
 
 ## Mathematical Relationships
- \nabla . U = 0
+ $$ \nabla . U = 0 $$
 
 $$ {dU \over dt}+ {(U . \nabla) U} = - {1 \over\rho} \nabla p + \nu \nabla . {\nabla U} + \beta g (T - T_ref) - {Cu \over \rho} {{(1 - \lambda)^2} \over {\lambda^3 + 10^{-3}}} U $$
 
