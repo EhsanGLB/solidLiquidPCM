@@ -9,6 +9,8 @@ $$ {dU \over dt}+ {(U . \nabla) U} = - {1 \over\rho} \nabla p + \nu \nabla . {\n
 
 $$ \rho \left({C_p + h{d\lambda \over dT} }\right) {dT \over dt} + \rho C_p {U . \nabla T} = k {\nabla}^2 T $$
 
+$$ \lambda = 0.5 erf \left({4 { {T_s - T_m} \over {T_l - T_s} }}\right) + 0.5 $$
+
 Which $U$, $T$, and $\alpha$ are velocity vector, temperature, and thermal diffusivity, respectively.
 
 
