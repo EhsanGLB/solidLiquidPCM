@@ -5,9 +5,9 @@ This is a solver for solid-liquid phase change material based on foam-extend-4.1
 ## Mathematical Relationships
 {U . \nabla T} = 0
 
-$$ {dU \over dt}+ {(U . \nabla) U} = - {1 \over\rho} \nabla p + \nu \nabla . {\nabla U} + \beta g (T - T_ref) - Cu {{(1 - \lambda)^2} \over {\lambda^3 + 10^{-3}}}U $$
+$$ {dU \over dt}+ {(U . \nabla) U} = - {1 \over\rho} \nabla p + \nu \nabla . {\nabla U} + \beta g (T - T_ref) - {Cu \over \rho} {{(1 - \lambda)^2} \over {\lambda^3 + 10^{-3}}} U $$
 
-$$ {dT \over dt}+ {U . \nabla T} = \alpha {\nabla}^2 T $$
+$$ \rho\ledt({C_p + h{d\lambda \over dT}} right){dT \over dt}+ {U . \nabla T} = \alpha {\nabla}^2 T $$
 
 Which $U$, $T$, and $\alpha$ are velocity vector, temperature, and thermal diffusivity, respectively.
 
