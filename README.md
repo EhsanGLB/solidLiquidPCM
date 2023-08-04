@@ -1,5 +1,5 @@
 # solidLiquidPCM
-This is a solver for solid-liquid phase change material based on foam-extend-4.1.
+This is a solver for solid-liquid phase change material written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
