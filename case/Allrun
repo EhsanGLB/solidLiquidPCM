@@ -28,8 +28,7 @@ echo run blockMesh ...
 blockMesh
 
 echo run solver ...
-#$application
-solidLiquidPCM
+$application
 
 # ----------------------------------------------------------------- end-of-file
 
