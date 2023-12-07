@@ -1,4 +1,4 @@
-# solidLiquidPCM
+# solidLiquidPCMFoam
 This is a solver for solid-liquid phase change material written based on foam-extend-4.1.
 
 
@@ -18,8 +18,8 @@ And $\rho$, $\nu$, $\beta$, $C_p$, $h$, $k$, $T_m$, $T_s$, and $T_l$  are densit
 ## Installation
 It is working on foam-extend-4.1
 ```bash
-git clone https://github.com/EhsanGLB/solidLiquidPCM.git
-cd solidLiquidPCM/solidLiquidPCM
+git clone https://github.com/EhsanGLB/solidLiquidPCMFoam.git
+cd solidLiquidPCMFoam/solidLiquidPCMFoam
 wmake
 cd ../case
 ```
@@ -29,7 +29,7 @@ cd ../case
 1. First way
 ```bash
 blockMEsh
-solidLiquidPCM
+solidLiquidPCMFoam
 ```
 
 2. Second way
