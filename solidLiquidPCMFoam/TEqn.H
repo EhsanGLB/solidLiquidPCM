@@ -1,3 +1,4 @@
+for (int i=0; i<7; i++ ) // added
 {
     volScalarField kappaEff
     (
@@ -19,5 +20,4 @@
 
     //rhok = 1.0 - beta*(T - TRef);
     gamma = 0.5 * erf( 4.0 * ( T - Tm ) / Tmr ) + scalar(0.5);
-
 }
